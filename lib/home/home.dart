@@ -66,7 +66,10 @@ class _HomeState extends State<Home> {
         child: Icon(Icons.add),
         backgroundColor: Colors.blueGrey,
 
-        onPressed: (){},
+        onPressed: () => BottomNavigationBarItem(
+              icon: Icon(Icons.image),
+              title: Text('Picture'),
+        ) ,
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
 
