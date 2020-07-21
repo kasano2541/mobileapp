@@ -9,19 +9,6 @@ import 'package:http/http.dart'as http;
 import 'package:chewie/chewie.dart';
 import '../config/config.dart';
 
-void main() => runApp(MyApp());
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.blue,
-      ),
-      home: Home(),
-    );
-  }
-}
 
 class MyHomepage6 extends StatefulWidget {
   @override
@@ -65,6 +52,7 @@ class _MyHomepage6State extends State<MyHomepage6> {
   @override
   Widget build(BuildContext context) {
     return new Scaffold(
+      appBar: AppBar(),
         key: scaffoldKey,
 //        appBar:AppBar(
 //          title:Text('Upload image'),

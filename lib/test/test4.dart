@@ -23,7 +23,7 @@ class _MyHomePage4State extends State<MyHomePage4> {
 
   Widget _buildPreviewImage() {
 
-    return FutureBuilder<File>(
+    return new FutureBuilder<File>(
       future: fileImage,
       builder: (BuildContext context, AsyncSnapshot<File> snapshot) {
         if (snapshot.connectionState == ConnectionState.done &&

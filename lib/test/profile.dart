@@ -46,7 +46,7 @@ class _ProfileFirstState extends State<ProfileFirst> {
                   Row(
                     children: <Widget>[
                       Container(
-                        height: 11 * SizeConfig.heightMultiplier,
+                        height: 13 * SizeConfig.heightMultiplier,
                         width: 22 * SizeConfig.widthMultiplier,
                         decoration: BoxDecoration(
                             shape: BoxShape.circle,
